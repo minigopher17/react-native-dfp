@@ -2,6 +2,8 @@
 
 # react-native-dfp
 
+My fork of a fork to get it working with React Native 0.55+.
+
 Unofficial fork from Simon Bugert's [react-native-admob](https://github.com/sbugert/react-native-admob/tree/980386052d780e42042bf8127cd1048549fe7773), but only implementing Google Mobile Ads' DFP libraries.
 
 ## Getting started
