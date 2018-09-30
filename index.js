@@ -3,7 +3,11 @@ import {
   NativeModules,
 } from 'react-native';
 
-import Banner from './RNDFPBanner';
-import Interstitial from './RNDFPInterstitial';
-
-module.exports = { Banner, Interstitial };
+module.exports = {
+  get RNBanner() {
+    return require('./RNDFPBanner').default;
+  },
+  get Interstitial() {
+    return require('./RNDFPInterstitial').default;
+  }
+};
